@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const { createNodeMiddleware, createProbot } = require("probot");
 
-const app = require("../../../index");
+const app = require("../../esapp");
+
 const probot = createProbot();
 
-module.exports = createNodeMiddleware(app, {
+export default createNodeMiddleware(app, {
   probot,
   webhooksPath: "/api/github/webhooks",
 });
