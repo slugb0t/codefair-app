@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
     "humanparser": "^2.7.0",
     "js-yaml": "^4.1.0",
     "mongodb": "^6.5.0",
@@ -34,6 +35,10 @@
     "smee-client": "^2.0.0",
     "tailwindcss": "^3.4.3"
   },
+  "engines": {
+    "node": ">= 18"
+  },
+  "type": "module",
   "jest": {
     "testEnvironment": "node"
   }
