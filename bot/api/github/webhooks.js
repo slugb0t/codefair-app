@@ -1,7 +1,5 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const { createNodeMiddleware, createProbot } = require("probot");
-
-const app = require("../../esapp");
+import { createNodeMiddleware, createProbot } from "probot";
+import app from "../../index.js";
 
 const probot = createProbot();
 
