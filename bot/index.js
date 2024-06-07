@@ -74,6 +74,7 @@ export default async (app) => {
 
   // When a new repository is added to the installation
   app.on("installation_repositories.added", async (context) => {
+    console.log("INSTALLATION REPOSITORIES ADDED");
     // Event for when github app is alredy installed but a new repository is added
     const owner = context.payload.installation.account.login;
     const installationId = context.payload.installation.id;

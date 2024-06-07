@@ -4,7 +4,7 @@ import "dotenv/config";
 
 async function startServer() {
   const server = new Server({
-    // log: console,
+    // log: "https://smee.io/7gWLni5NDY9oEGnk",
     Probot: Probot.defaults({
       appId: process.env.GITHUB_APP_ID,
       privateKey: process.env.PRIVATE_KEY,

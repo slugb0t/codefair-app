@@ -19,12 +19,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@probot/pino": "^2.3.5",
     "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "humanparser": "^2.7.0",
     "js-yaml": "^4.1.0",
     "mongodb": "^6.5.0",
     "nanoid": "^5.0.7",
+    "pino": "^9.1.0",
     "probot": "13.2.0"
   },
   "devDependencies": {
